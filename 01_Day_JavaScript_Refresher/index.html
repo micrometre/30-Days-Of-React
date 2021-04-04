@@ -2,21 +2,22 @@
 
 <html>
   <head>
-
-
     <title>30DaysOfScript:Internal Script</title>
+      <!--External Script-->  
+    <script src="js/refresher.js"></script>
+    <script src="js/array.js"></script>
     <script>
-      console.log('Welcome to 30DaysOfJavaScript')
+      console.log('External Script')
+    </script>
+  </head>
+  <body>
+      <!--Inline Script-->  
+    <button onclick="alert('Inline Script')">Click Me</button>
+      <!--Internal Script-->  
+    <script>
+      console.log('Iternal Script from body')
     </script>
 
-
-  </head>
-
-
-
-
-  <body>
-    <button onclick="alert('Welcome to 30DaysOfJavaScript!')">Click Me</button>
   </body>
 
 
