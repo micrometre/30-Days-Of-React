@@ -1,5 +1,3 @@
-//How to create an empty array
-// syntax Using Array constructor
 const constructor = Array()
 console.log(constructor) // []
 
@@ -18,3 +16,4 @@ const arr = [
   { skills: ['HTML', 'CSS', 'JS', 'React', 'Python'] },
 ] 
 console.log(arr)
+
